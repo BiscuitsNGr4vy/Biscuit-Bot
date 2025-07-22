@@ -1,6 +1,8 @@
 # Biscuit-Bot
 I have created multiple Discord Bots that communicate with each other to execute user commands and display output to Discord. These bots were specifically created to work with The Isle (Evrima) and will not work without making some adjustments to the code for your specific host machine!
 
+# The full project is open-source and available on my GitHub for anyone to view, use, or modify.
+
 Making it work:
 1. You must generate 4 Bot Tokens from Discord.dev.
 2. Pip install any Python packages from the bots that you currently do not have.
