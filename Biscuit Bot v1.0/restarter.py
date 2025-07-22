@@ -1,0 +1,21 @@
+import pyautogui
+import time
+
+pyautogui.click(368, 348, duration=5)
+pyautogui.click(1555, 445, duration=5)
+pyautogui.click(1536, 497, duration=5)
+pyautogui.click(1473, 256, duration=5)
+pyautogui.hotkey('ctrlleft', 'a', duration=1)
+pyautogui.press('backspace')
+pyautogui.hotkey('ctrlleft', 'a', duration=1)
+pyautogui.press('backspace')
+pyautogui.typewrite('The Verdant Isle')
+pyautogui.press('enter')
+time.sleep(10)
+pyautogui.press('enter')
+pyautogui.click(956, 181, duration=10)
+pyautogui.click(1495, 788, duration=5)
+time.sleep(30)
+pyautogui.press('delete')
+time.sleep(10)
+pyautogui.press('insert')
